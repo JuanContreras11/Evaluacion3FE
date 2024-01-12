@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carrito de compras</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+
+    <div class="row my-5 text-center justify-content-center">
+      <div class="col-auto p-3 bg-light mx-2">
+        <div class="container">
+          <h2 class="my-3">Productos disponibles</h2>
+          <ul class="disponibles">
+            <li class="py-3">
+              <img
+                src="assets/img/audifonos.jpg"
+                alt="Audífono"
+                class="product-icon"
+              />
+              <div class="cajaDetalles">
+                <div>
+                  Audífonos - <span class="product-price">$30.000</span>
+                </div>
+                <div>Stock - <span class="product-stock">3</span></div>
+
+                <button class="btn btn-primary mx-3">Agregar al carrito</button>
+              </div>
+            </li>
+            <li class="py-3">
+              <img
+                src="assets/img/Mouse.jpg"
+                alt="Mouse"
+                class="product-icon"
+              />
+              <div class="cajaDetalles">
+                <div>
+                  Mouse - <span class="product-price">$20.000</span>
+                </div>
+                <div>Stock - <span class="product-stock">5</span></div>
+                <button class="btn btn-primary mx-3">Agregar al carrito</button>
+              </div>
+             
+            </li>
+            <li class="py-3">
+              <img
+                src="assets/img/teclado.jpg"
+                alt="Teclado"
+                class="product-icon"
+              />
+              <div class="cajaDetalles">
+                <div>
+                  Teclado - <span class="product-price">$150.000</span>
+                </div>
+                <div>Stock - <span class="product-stock">10</span></div>
+                <button class="btn btn-primary mx-3">Agregar al carrito</button>
+              </div>
+              
+            </li>
+            <li class="py-3">
+              <img
+                src="assets/img/gabinete.jpg"
+                alt="Gabinete"
+                class="product-icon"
+              />
+              <div>
+                <div class="cajaDetalles">
+                  <div>
+                    Gabinete - <span class="product-price">$35.000</span>
+                  </div>
+                  Stock - <span class="product-stock">4</span></div>
+                  <button class="btn btn-primary mx-3">Agregar al carrito</button>
+                </div>  
+            </div>
+            
+            </li>
+            <li class="py-3">
+              <img
+                src="assets/img/pantalla.jpg"
+                alt="Pantalla"
+                class="product-icon"
+              />
+              <div class="cajaDetalles">
+                <div>
+                  Gabinete - <span class="product-price">$35.000</span>
+                </div>
+                Stock - <span class="product-stock">4</span></div>
+                <button class="btn btn-primary mx-3">Agregar al carrito</button>
+              </div> 
+            </li>
+
+
+            <li class="py-3">
+              <img
+                src="assets/img/silla.jpg"
+                alt="Silla"
+                class="product-icon"
+              />
+              Silla - <span class="product-price">$150.000</span>
+              <button class="btn btn-primary mx-3">Agregar al carrito</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 p-3 bg-light mx-2">
+        <div class="container">
+          <h2 class="my-3">Productos en el carrito</h2>
+
+          <div class="cart-item">
+            <p>Audífono - Cantidad: 1</p>
+            <button class="btn btn-danger">Remover del carrito</button>
+          </div>
+          <p>Total a pagar: $30.000</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

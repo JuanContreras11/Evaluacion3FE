@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.btn{
+    width: 300px;
+    margin-top: 20px;
+  }
+
+ li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .cajaDetalles{
+    display: flex;
+    flex-direction: column;
+ }
