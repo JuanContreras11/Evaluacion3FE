@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+
+.container1{
+   height: 100%;
+   width: 100%;
+}
 .btn{
     width: 300px;
     margin-top: 20px;
@@ -13,8 +18,15 @@
     align-items: center;
 
  }
+ .li img{
+   width: 200px;
+   height: auto;
+ }
 
  .cajaDetalles{
     display: flex;
     flex-direction: column;
  }
+.row{
+   gap:30px;
+}
